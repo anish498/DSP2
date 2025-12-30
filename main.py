@@ -1,3 +1,3 @@
-from src.DSP_2 import logger
+from src.Project import logger
 
 logger.info("Custom Logging")
