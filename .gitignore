@@ -1,3 +1,4 @@
 venvdsp2
 logs
 artifacts
+requirements.lock.txt
