@@ -11,9 +11,9 @@ from src.Project.entity.config_entity import ModelEvaluationConfig
 from src.Project.constants import *
 from src.Project.utils.common import read_yaml, create_directories,save_json
 
-#os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/anishkelkar27/DSP2.mlflow"
-#os.environ["MLFLOW_TRACKING_USERNAME"]="anishkelkar27"
-#os.environ["MLFLOW_TRACKING_PASSWORD"]="6caaf283ce674758ccc3bcc4b5576e4dedce587e"
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/anishkelkar27/DSP2.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="anishkelkar27"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="6caaf283ce674758ccc3bcc4b5576e4dedce587e"
 
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):

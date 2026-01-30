@@ -1,5 +1,7 @@
 # DSP2
 
+This is a guided project by Krish Naik
+
 # Workflows--ML Pipeline
 
 1. Data Ingestion
